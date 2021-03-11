@@ -1,0 +1,16 @@
+.team_data{
+    width: 100%;
+    border: 1px solid rgb(229, 245, 14);
+    border-radius: 20px;
+    margin : 10px;
+    padding: 10px;
+    background-color: rgb(107, 100, 3); 
+}
+.image img{
+    width: 50%;
+    margin-top: 120px;  
+}
+
+.footer{
+    text-align: center;
+}
