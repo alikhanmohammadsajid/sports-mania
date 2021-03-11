@@ -18,7 +18,7 @@ const LeagueDetail = () => {
         fetch(`https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=${idTeam}`)
             .then(res => res.json())
             .then(data => setDetail(data.teams[0]))
-    }, [])
+    }, [idTeam])
 
     return (
         <div>
