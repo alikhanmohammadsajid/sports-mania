@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+
 import { Button } from 'react-bootstrap';
-import { Link, useHistory } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import './LeagueHome.css'
 
 const LeagueHome = (props) => {
