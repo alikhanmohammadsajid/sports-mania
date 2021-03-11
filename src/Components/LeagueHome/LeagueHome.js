@@ -15,7 +15,7 @@ const LeagueHome = (props) => {
                 <h5>{strTeam}</h5>
                 <p>Sports Type : {strSport}</p>
             </div>
-            <Button variant="warning"><Link to={`/detail/${idTeam}`}>Explore : {idTeam}</Link></Button>
+            <Button variant="warning"><Link to={`/detail/${idTeam}`}>Explore</Link></Button>
             <p>
             </p>
         </div>
